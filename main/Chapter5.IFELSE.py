@@ -76,3 +76,15 @@ print(w)
 
 del r
 print(w)
+
+x = [10] * 10
+for index,value in enumerate(x):
+    x[index] = value * 2
+print(x)
+
+for y in x:
+    if y == 20:
+        y = 10
+    else:
+        pass
+print(x)
